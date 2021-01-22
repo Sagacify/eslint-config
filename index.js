@@ -28,7 +28,6 @@ module.exports = {
     'no-return-await': 'error',
     'no-script-url': 'error',
     'no-shadow': 'error',
-    'no-undefined': 'error',
     'no-unsafe-optional-chaining': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
