@@ -1,0 +1,27 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: sagacify/docker-circle-ci2.0:v15
+    working_directory: /app
+    steps:
+      - checkout
+      - run:
+          name: Install packages
+          command: |
+            npm ci
+      - run:
+          name: Run tests
+          command: |
+            npm test
+      - run:
+          name: Publish release
+          command: |
+            npx semantic-release
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          context: Npm
