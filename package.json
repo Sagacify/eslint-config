@@ -16,6 +16,9 @@
   "peerDependencies": {
     "eslint": ">= 7"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "master"
@@ -24,14 +27,7 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
-      [
-        "@semantic-release/npm",
-        {
-          "publishConfig": {
-            "access": "public"
-          }
-        }
-      ],
+      "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/github"
     ]
