@@ -34,7 +34,9 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
-    'require-atomic-updates': 'error',
+    // Removed until this issue is solved:
+    // https://github.com/eslint/eslint/issues/11899
+    //'require-atomic-updates': 'error',
     radix: 'error',
     semi: ['error', 'always'],
     // Warnings
