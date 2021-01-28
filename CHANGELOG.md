@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Sagacify/eslint-config/compare/v1.1.0...v1.1.1) (2021-01-28)
+
+
+### Bug Fixes
+
+* **rules:** remove broken rule require-atomic-updates ([42a3f76](https://github.com/Sagacify/eslint-config/commit/42a3f768b7ac488f81605b4a0dc59f494a911b4c))
+
 # [1.1.0](https://github.com/Sagacify/eslint-config/compare/v1.0.0...v1.1.0) (2021-01-22)
 
 
