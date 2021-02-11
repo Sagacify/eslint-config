@@ -31,6 +31,8 @@ module.exports = {
     'no-unsafe-optional-chaining': 'error',
     'no-var': 'error',
     'object-shorthand': 'error',
+    // Overwrite Standard error to warning level
+    'prefer-regex-literals': ['warn', { disallowRedundantWrapping: true }],
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
