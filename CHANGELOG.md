@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Sagacify/eslint-config/compare/v1.1.1...v1.2.0) (2021-02-11)
+
+
+### Features
+
+* **rule:** add warning for prefer-regex-literals ([16c86c0](https://github.com/Sagacify/eslint-config/commit/16c86c0806d680e63d4ecd25933ed3101c864f7d))
+
 ## [1.1.1](https://github.com/Sagacify/eslint-config/compare/v1.1.0...v1.1.1) (2021-01-28)
 
 
